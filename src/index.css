@@ -1,0 +1,74 @@
+/* Tailwind CSS */
+@import "tailwindcss";
+
+@theme
+{
+ /* === Green Color =====  Primary Color ======*/
+ --color-green-50: #effaf4;
+ --color-green-100: #d9f2e2;
+ --color-green-200: #b6e4ca;
+ --color-green-300: #87ceab;
+ --color-green-400: #54b386;
+ --color-green-500: #32976b;
+ --color-green-600: #237a56;
+ --color-green-700: #1c6046;
+ --color-green-800: #184d39;
+ --color-green-900: #153f30; 
+ --color-green-950: #0b231c;
+
+
+  /* ==== Blue Color ===== Secondary Color */
+  --color-blue-50: #f1f7fd;
+  --color-blue-100: #deedfb;
+  --color-blue-200: #c5e2f8;
+  --color-blue-300: #9dd0f3;
+  --color-blue-400: #6fb6eb;
+  --color-blue-500: #4d98e4;
+  --color-blue-600: #387dd8;
+  --color-blue-700: #2f68c6;
+  --color-blue-800: #2c55a1;
+  --color-blue-900: #28497f; 
+  --color-blue-950: #1d2e4e;
+
+  /* ==== Background Color ===== Gray Color */
+  --color-gray-50: #f8f8f7;
+  --color-gray-100: #ebebea;
+  --color-gray-200: #dcdcdb;
+  --color-gray-300: #bebebb;
+  --color-gray-400: #9a9996;
+  --color-gray-500: #7e7d79;
+  --color-gray-600: #676762;
+  --color-gray-700: #545350;
+  --color-gray-800: #484844;
+  --color-gray-900: #3e3e3c; 
+  --color-gray-950: #292928;
+
+
+  /* === Breakpoints (responsive sizes) === */
+  --breakpoint-xs: 400px;   /* Extra Small devices (mobile) */
+  --breakpoint-sm: 576px;   /* Small devices (mobile) */
+  --breakpoint-md: 768px;   /* Medium devices (tablet) */
+  --breakpoint-lg: 992px;  /* Large devices (laptop) */
+  --breakpoint-xl: 1200px;  /* Extra large screens */
+  --breakpoint-2xl: 1440px; /* 2X large screens */
+
+  /* ===== Fonts ==== */
+
+  --font-neuton: "Neuton", serif;
+}
+
+html 
+{
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*, *::before, *::after
+{
+  box-sizing: inherit;
+}
+
+body
+{
+  font-family: "Manrope", sans-serif;
+}
