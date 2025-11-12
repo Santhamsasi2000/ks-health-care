@@ -23,8 +23,8 @@ const Contact = () => {
         <div className="flex flex-wrap justify-center gap-6">
             <div className="w-full xs:w-[80%] sm:w-[45%] lg:w-[30%] xl:w-[23%]">
               <div className="flex flex-col h-full
-               rounded-2xl shadow-2xl p-4 bg-blue-100 transition-all duration-300 ease-in-out
-                border border-blue-400 hover:-translate-y-1">
+               rounded-2xl shadow-xl/30 p-4 bg-gray-100 transition-all duration-300 ease-in-out
+                hover:-translate-y-1">
                 <LazyLoadImage className="w-[40px] h-[40px] mb-1" src="/contact/address.png" effect="blur" threshold={200}/>
                 <h5 className="font-bold text-lg text-blue-800 mb-1">Address</h5>
                 <a
@@ -39,8 +39,8 @@ const Contact = () => {
             </div>
             <div className="w-full xs:w-[80%] sm:w-[45%] lg:w-[30%] xl:w-[23%]">
               <div className="flex flex-col h-full
-               rounded-2xl shadow-2xl p-4 bg-blue-100 transition-all duration-300 ease-in-out
-                border border-blue-400 hover:-translate-y-1">
+               rounded-2xl shadow-xl/30 p-4 bg-gray-100 transition-all duration-300 ease-in-out
+                hover:-translate-y-1">
                  <LazyLoadImage className="w-[40px] h-[40px] mb-1" src="/contact/mobile.png" effect="blur" threshold={200}/>
                  <h5 className="font-bold text-lg text-blue-800 mb-1">Mobile Number</h5>
                  <a
@@ -63,8 +63,8 @@ const Contact = () => {
             </div>
             <div className="w-full xs:w-[80%] sm:w-[50%] lg:w-[30%] xl:w-[23%]">
               <div className="flex flex-col h-full
-               rounded-2xl shadow-2xl p-4 bg-blue-100 transition-all duration-300 ease-in-out
-                border border-blue-400 hover:-translate-y-1">
+               rounded-2xl shadow-xl/30 p-4 bg-gray-100 transition-all duration-300 ease-in-out
+                hover:-translate-y-1">
                  <LazyLoadImage className="w-[40px] h-[40px] mb-1" src="/contact/email.png" effect="blur" threshold={200}/>
                  <div>
                     <h5 className="font-bold text-lg text-blue-800 mb-1">Email</h5>
@@ -82,8 +82,8 @@ const Contact = () => {
             </div>
             <div className="w-full xs:w-[80%] sm:w-[45%] lg:w-[30%] xl:w-[23%]">
               <div className="flex flex-col h-full
-               rounded-2xl shadow-2xl p-4 bg-blue-100 transition-all duration-300 ease-in-out
-                border border-blue-400 hover:-translate-y-1">
+               rounded-2xl shadow-xl/30 p-4 bg-gray-100 transition-all duration-300 ease-in-out
+                hover:-translate-y-1">
                  <LazyLoadImage className="w-[40px] h-[40px] mb-1" src="/contact/working-hours.png"
                   effect="blur" threshold={200}/>
                     <h5 className="font-bold text-lg text-blue-800 mb-1">Working Hours</h5>

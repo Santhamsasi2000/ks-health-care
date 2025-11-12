@@ -15,7 +15,7 @@ const HeroSection = () => {
           alt="AC Technician"
           className="w-full h-full object-cover object-center"
         />
-        <div className="absolute inset-0 bg-black/30" />
+        <div className="absolute inset-0 bg-black/40" />
       </div>
 
       {/* Content */}
@@ -28,13 +28,32 @@ const HeroSection = () => {
       >
         {/* Title */}
         <motion.h1 
-          className="mb-2 sm:mb-3 text-white font-extrabold text-2xl
-          xs:text-[27px] sm:text-4xl md:text-[40px] lg:text-5xl"
+          className="hidden lg:block mb-2 sm:mb-3 text-white font-extrabold
+           text-4xl xl:text-5xl text-center"
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
-          K.S. Health Care Centre – Caring for You, 24/7     
+          K.S. Health Care Centre – Caring for You, 24/7   
+        </motion.h1>
+        
+        <motion.h1 
+          className="block lg:hidden mb-0 xs:mb-2 sm:mb-3 text-white font-extrabold
+           text-2xl xs:text-3xl sm:text-4xl text-center"
+          initial={{ opacity: 0, y: -20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+        >
+          K.S. Health Care Center 
+        </motion.h1>
+        <motion.h1 
+          className="block lg:hidden mb-2 sm:mb-4 text-white font-extrabold
+           text-2xl xs:text-3xl sm:text-4xl text-center"
+          initial={{ opacity: 0, y: -20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+        >
+          Caring for You, 24/7   
         </motion.h1>
 
         {/* Subtitle */}
@@ -55,12 +74,11 @@ const HeroSection = () => {
           transition={{ duration: 0.6, ease: "easeOut", delay: 0.5}}
         >
             <a
-             className="flex items-center gap-2.5 text-green-800
-             bg-green-100 rounded-lg px-3 sm:px-6 py-2 text-sm sm:text-base font-semibold
+             className="flex items-center gap-2.5 text-gray-800
+             bg-gray-100 rounded-xl px-3 sm:px-6 py-2 text-sm sm:text-base font-semibold
              shadow-xl hover:bg-teal-100 hover:shadow-xl hover:scale-105
              active:scale-95 active:bg-teal-300 transition-all duration-300 ease-in-out"
-             href="tel:+919363725757" target="_blank"
-             rel="noopener noreferrer">
+             href="tel:+919363725757" target="_blank" rel="noopener noreferrer">
               <FiPhoneCall className="text-lg sm:text-xl mt-0.5"/> Book Appointment
             </a>
         </motion.div>

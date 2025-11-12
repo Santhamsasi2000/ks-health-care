@@ -26,8 +26,8 @@ const Services = () => {
               boxShadow: "0px 10px 25px #9dd0f3",
             }}
           className="w-full xs:w-[80%] sm:w-[45%] md:w-[30%] flex flex-col items-center
-            rounded-2xl shadow-2xl p-4 bg-blue-100 transition-all duration-300 ease-in-out
-            border border-blue-200 hover:-translate-y-1"
+            rounded-2xl shadow-xl/30 p-4 transition-all duration-300 ease-in-out 
+            hover:-translate-y-1 hover:bg-blue-50"
             key={id}>
               <LazyLoadImage className="w-[60px] h-[60px] mb-1" src={icon} effect="blur" threshold={200}/>
               <h5 className="font-bold text-blue-800 text-lg mb-1">{title}</h5>

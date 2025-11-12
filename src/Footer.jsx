@@ -6,8 +6,8 @@ const Footer = () => {
    whileInView={{ opacity: 1, y: 0 }}
    transition={{ duration: 0.8, ease: "easeOut"}}
    viewport={{ once: true}}
-   className='p-3 bg-gray-800 text-white'>
-      <p className='text-center mb-1'>© 2025 K.S. Health Care Centre. 
+   className='p-5 bg-gray-800 text-white'>
+      <p className='text-center mb-2'>© 2025 K.S. Health Care Centre. 
        <span className="block xs:inline">All Rights Reserved.</span>
       </p>
       <motion.p
@@ -20,7 +20,8 @@ const Footer = () => {
           href="https://www.sasikumar.online/"
           target="_blank"
           rel="noopener noreferrer"
-          className="underline underline-offset-2 text-gray-300 hover:text-green-400 transition-all duration-300"
+          className="ms-1 underline underline-offset-2 text-green-300
+           hover:text-green-400 transition-all duration-300"
           whileHover={{
             textShadow: "0px 0px 8px rgba(34,197,94,0.7)",
           }}

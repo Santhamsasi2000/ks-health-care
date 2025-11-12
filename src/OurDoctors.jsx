@@ -1,5 +1,6 @@
 import { FaUserDoctor } from "react-icons/fa6";
 import { motion } from "framer-motion"
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const OurDoctors = () => {
   return (
@@ -20,11 +21,11 @@ const OurDoctors = () => {
         {
         doctors.map(({ id, title, education, specialization}) => (
          <div className="w-full xs:w-[80%] sm:w-[45%] md:w-[30%] flex flex-col items-center
-          rounded-2xl shadow-2xl p-4 bg-blue-100 transition-all duration-300 ease-in-out
-           border border-blue-200 hover:-translate-y-1"
+          rounded-2xl shadow-2xl p-4 transition-all duration-300 ease-in-out bg-gray-50
+           hover:-translate-y-1"
            key={id}>
-            <FaUserDoctor className="bg-blue-600 text-blue-50 p-3
-            rounded-full w-[60px] h-[60px]"/>
+            <LazyLoadImage className="w-[60px] h-[60px] rounded-full" src="/Doctor/doctor.png" 
+            threshold={200} effect="blur"/>
             <h5 className="font-bold text-blue-800 text-lg mb-1">{title}</h5>
             <p className="text-sm text-center">{education}</p>
             <p className="text-sm text-center text-gray-600">{specialization}</p>
