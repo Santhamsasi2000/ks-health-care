@@ -21,7 +21,7 @@ const OurDoctors = () => {
         {
         doctors.map(({ id, title, education, specialization}) => (
          <div className="w-full xs:w-[80%] sm:w-[45%] md:w-[30%] flex flex-col items-center
-          rounded-2xl shadow-2xl p-4 transition-all duration-300 ease-in-out bg-gray-50
+          rounded-2xl shadow-xl/30 p-4 transition-all duration-300 ease-in-out bg-gray-50
            hover:-translate-y-1"
            key={id}>
             <LazyLoadImage className="w-[60px] h-[60px] rounded-full" src="/Doctor/doctor.png" 

@@ -6,8 +6,8 @@ const Footer = () => {
    whileInView={{ opacity: 1, y: 0 }}
    transition={{ duration: 0.8, ease: "easeOut"}}
    viewport={{ once: true}}
-   className='p-5 bg-gray-800 text-white'>
-      <p className='text-center mb-2'>© 2025 K.S. Health Care Centre. 
+   className='p-4 xs:p-5 bg-gray-800 text-white'>
+      <p className='text-center mb-2  text-sm sm:text-base'>© 2025 K.S. Health Care Centre. 
        <span className="block xs:inline">All Rights Reserved.</span>
       </p>
       <motion.p

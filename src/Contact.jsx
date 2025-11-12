@@ -15,7 +15,7 @@ const Contact = () => {
         </h2>
         
         {/* Subtitle */}
-        <p className="text-sm sm:text-base text-center text-gray-800 mb-6">
+        <p className="text-sm sm:text-base text-center text-gray-800 text-sm sm:text-base mb-6">
           We're here for you 24/7. Reach out to us anytime for medical assistance
         </p>
 
@@ -26,12 +26,12 @@ const Contact = () => {
                rounded-2xl shadow-xl/30 p-4 bg-gray-100 transition-all duration-300 ease-in-out
                 hover:-translate-y-1">
                 <LazyLoadImage className="w-[40px] h-[40px] mb-1" src="/contact/address.png" effect="blur" threshold={200}/>
-                <h5 className="font-bold text-lg text-blue-800 mb-1">Address</h5>
+                <h5 className="font-bold text-base xs:text-lg text-blue-800 mb-1">Address</h5>
                 <a
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-800"
+                className="text-gray-800 text-sm sm:text-base"
                 >
                   <span>Nochili Road, K.G. Kandigai, Thiruvallur District,Tamil Nadu – 631205</span>
                 </a>
@@ -42,12 +42,12 @@ const Contact = () => {
                rounded-2xl shadow-xl/30 p-4 bg-gray-100 transition-all duration-300 ease-in-out
                 hover:-translate-y-1">
                  <LazyLoadImage className="w-[40px] h-[40px] mb-1" src="/contact/mobile.png" effect="blur" threshold={200}/>
-                 <h5 className="font-bold text-lg text-blue-800 mb-1">Mobile Number</h5>
+                 <h5 className="font-bold text-base xs:text-lg text-blue-800 mb-1">Mobile Number</h5>
                  <a
                 href="tel:85259 55836"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-800 hover:underline hover:text-blue-800 mb-1"
+                className="text-gray-800 text-sm sm:text-base hover:underline hover:text-blue-800 mb-1"
                 >
                   85259 55836
                  </a>
@@ -67,12 +67,12 @@ const Contact = () => {
                 hover:-translate-y-1">
                  <LazyLoadImage className="w-[40px] h-[40px] mb-1" src="/contact/email.png" effect="blur" threshold={200}/>
                  <div>
-                    <h5 className="font-bold text-lg text-blue-800 mb-1">Email</h5>
+                    <h5 className="font-bold text-base xs:text-lg text-blue-800 mb-1">Email</h5>
                     <a
                     href="mailto:kshealthcarecenter10@gmail.com"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-800 hover:underline hover:text-blue-800 mb-1"
+                    className="text-gray-800 text-sm sm:text-base hover:underline hover:text-blue-800 mb-1"
                     >
                       kshealthcarecenter10@gmail.com
                     </a>
@@ -86,9 +86,9 @@ const Contact = () => {
                 hover:-translate-y-1">
                  <LazyLoadImage className="w-[40px] h-[40px] mb-1" src="/contact/working-hours.png"
                   effect="blur" threshold={200}/>
-                    <h5 className="font-bold text-lg text-blue-800 mb-1">Working Hours</h5>
-                    <p className="text-gray-800 font-medium">Open 24 Hours</p>
-                    <p className="text-gray-800">Lab • ECG • X-Ray • Pharmacy • Physiotherapy</p>
+                    <h5 className="font-bold text-base xs:text-lg text-blue-800 mb-1">Working Hours</h5>
+                    <p className="text-gray-800 text-sm sm:text-base font-medium">Open 24 Hours</p>
+                    <p className="text-gray-800 text-sm sm:text-base">Lab • ECG • X-Ray • Pharmacy • Physiotherapy</p>
               </div>
             </div>
         </div>

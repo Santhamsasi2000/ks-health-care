@@ -12,20 +12,20 @@ const NavBar = () => {
       <div className="flex items-center justify-between">
         {/* Left Section - Logo + Title */}
         <motion.div 
-        className="flex items-center gap-4"
+        className="flex items-center gap-3 xs:gap-4"
         whileHover={{scale: 1.02}}
         transition={{ type: "spring", stiffness: 200, damping: 10 }}>
           {/* Logo */}
           <motion.div
            whileHover={{ rotate: [0, -5, 5, 0]}}
            transition={{ duration: 0.5}}>
-            <LazyLoadImage className="w-[45px] h-[45px] xs:w-[50px] xs:h-[50px]" 
+            <LazyLoadImage className="w-[45px] h-[45px] xs:w-[50px] xs:h-[50px] mt-1.5" 
             src="/Navbar/ks-health-center-logo.jpeg"
             effect="blur" threshold={200}/>  
           </motion.div>
           <div>
             <h1 className="font-neuton font-bold text-[26px] xs:text-3xl text-blue-600">K.S. Health Care Centre</h1>
-            <p className="text-sm xs:text-base text-green-600">24/7 Medical Care</p>
+            <p className="text-sm xs:text-base text-green-600 font-semibold">24/7 Medical Care</p>
           </div>
         </motion.div>
         {/* Right Section - Call Button */}

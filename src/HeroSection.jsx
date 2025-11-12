@@ -74,10 +74,10 @@ const HeroSection = () => {
           transition={{ duration: 0.6, ease: "easeOut", delay: 0.5}}
         >
             <a
-             className="flex items-center gap-2.5 text-gray-800
+             className="flex items-center gap-2.5 text-green-800
              bg-gray-100 rounded-xl px-3 sm:px-6 py-2 text-sm sm:text-base font-semibold
-             shadow-xl hover:bg-teal-100 hover:shadow-xl hover:scale-105
-             active:scale-95 active:bg-teal-300 transition-all duration-300 ease-in-out"
+             shadow-xl hover:bg-gray-200 hover:shadow-xl hover:scale-105
+             active:scale-95 active:bg-gray-300 transition-all duration-300 ease-in-out"
              href="tel:+919363725757" target="_blank" rel="noopener noreferrer">
               <FiPhoneCall className="text-lg sm:text-xl mt-0.5"/> Book Appointment
             </a>

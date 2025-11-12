@@ -9,6 +9,7 @@ const Services = () => {
       transition={{ duration: 1, ease: "easeOut" }}
       viewport={{ once: true}}
       className="p-4 sm:p-5 md:p-6 lg:p-7 xl:p-8">
+
       {/* Heading */}
       <div>
         <h2 className="text-center text-green-700 font-bold font-neuton
@@ -17,6 +18,7 @@ const Services = () => {
           Comprehensive healthcare services delivered with care and expertise
         </p>
       </div>
+
       {/* Services grid */}
       <div className="flex justify-center gap-x-8 gap-y-10 flex-wrap">
       {
@@ -27,7 +29,7 @@ const Services = () => {
             }}
           className="w-full xs:w-[80%] sm:w-[45%] md:w-[30%] flex flex-col items-center
             rounded-2xl shadow-xl/30 p-4 transition-all duration-300 ease-in-out 
-            hover:-translate-y-1 hover:bg-blue-50"
+            hover:-translate-y-1"
             key={id}>
               <LazyLoadImage className="w-[60px] h-[60px] mb-1" src={icon} effect="blur" threshold={200}/>
               <h5 className="font-bold text-blue-800 text-lg mb-1">{title}</h5>
